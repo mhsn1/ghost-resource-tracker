@@ -1,10 +1,10 @@
 #!/bin/bash
 # Ghost Tracker — One-click installer for macOS
-# Usage: curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/ghost-resource-tracker/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/mhsn1/ghost-resource-tracker/main/install.sh | bash
 
 set -e
 
-REPO="YOUR_USERNAME/ghost-resource-tracker"
+REPO="mhsn1/ghost-resource-tracker"
 INSTALL_DIR="$HOME/.ghost-tracker"
 PYTHON_MIN="3.10"
 

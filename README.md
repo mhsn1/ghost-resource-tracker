@@ -11,8 +11,8 @@
 [![macOS](https://img.shields.io/badge/platform-macOS%2012%2B-lightgrey?logo=apple&logoColor=white)](https://www.apple.com/macos/)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-22c55e)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/ghost-resource-tracker/ci.yml?label=tests)](https://github.com/YOUR_USERNAME/ghost-resource-tracker/actions)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/YOUR_USERNAME/ghost-resource-tracker/releases)
+[![CI](https://img.shields.io/github/actions/workflow/status/mhsn1/ghost-resource-tracker/ci.yml?label=tests)](https://github.com/mhsn1/ghost-resource-tracker/actions)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/mhsn1/ghost-resource-tracker/releases)
 
 </div>
 
@@ -84,12 +84,12 @@ Ghost Tracker builds this profile for **every process** using a 30-sample rollin
 
 ### One-Line Install
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/ghost-resource-tracker/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mhsn1/ghost-resource-tracker/main/install.sh | bash
 ```
 
 ### Manual Install
 ```bash
-git clone https://github.com/YOUR_USERNAME/ghost-resource-tracker
+git clone https://github.com/mhsn1/ghost-resource-tracker
 cd ghost-resource-tracker
 python3 -m venv .venv
 source .venv/bin/activate
@@ -251,6 +251,6 @@ MIT — see [LICENSE](LICENSE).
 Built for security researchers and developers.<br>
 Not a replacement for dedicated endpoint detection software.
 
-**[Report a Bug](https://github.com/YOUR_USERNAME/ghost-resource-tracker/issues) · [Request a Feature](https://github.com/YOUR_USERNAME/ghost-resource-tracker/issues) · [Discussions](https://github.com/YOUR_USERNAME/ghost-resource-tracker/discussions)**
+**[Report a Bug](https://github.com/mhsn1/ghost-resource-tracker/issues) · [Request a Feature](https://github.com/mhsn1/ghost-resource-tracker/issues) · [Discussions](https://github.com/mhsn1/ghost-resource-tracker/discussions)**
 
 </div>

@@ -17,6 +17,13 @@
 </div>
 
 ---
+<div align="center">
+  <img src="assets/norm.png" alt="Ghost Tracker Dashboard" width="800">
+  <img src="assets/dang.png" alt="Ghost Tracker Dashboard" width="800">
+
+</div>
+
+---
 
 ## The Problem
 

@@ -57,7 +57,8 @@ def get_stats():
                 _cpu_history[pid] = deque(maxlen=30)
             _cpu_history[pid].append(cpu)
 
-            cpu_share = min(cpu / max(cpu_pct, 1.0), 1.0)
+            cpu_count = psutil.cpu_count(logical=True) or 8
+            cpu_share = min(cpu / max(cpu_pct * cpu_count, 1.0), 1.0)
             pw = cpu_share * TDP_WATTS
             entropy = _entropy(_cpu_history[pid])
 
